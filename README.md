@@ -13,6 +13,13 @@ https://developer.ibm.com/technologies/continuous-integration/tutorials/configur
 https://medium.com/@gauravsj9/hey-nilesh-nice-article-but-i-was-getting-error-error-executing-access-token-command-usr-lib-d530eb2183ac
 
 
+# Get the initial password of jenkins by :
+
+              $ kubectl logs <pod-name> <container-name>
+
+
+
+
 # Create a dir /var/jenkins_home/.kube  (and copy the config file in it)
 
 if yuh face the error of gcloud in console then use the following commands
